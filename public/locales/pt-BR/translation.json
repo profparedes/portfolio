@@ -1,0 +1,36 @@
+{
+  "menu": {
+    "qualifications": "Qualificações",
+    "portfolio": "Portfolio",
+    "experience": "Experiência",
+    "about-me": "Sobre mim",
+    "contact": "Contato"
+  },
+  "translation": {
+    "language": "Língua"
+  },
+  "greeting-text": "Olá<br />eu sou o <span class=\"color-accent\">{{name}}</span>,<br />{{job}}",
+  "scroll-down-section": "<span class=\"color-accent d-none d-md-inline\">Clique aqui<br /></span><span class=\"color-accent d-none d-md-inline\">ou</span> role para baixo<span class=\"color-accent d-none d-md-inline\"><br />para ver as minhas qualificações</span>",
+  "sections": {
+    "portfolio": {
+      "title": "Projetos Recentes"
+    },
+    "experience": {
+      "title": "Experiência Profissional",
+      "description": "Esses são alguns dos clientes para os quais eu trabalhei nos meus {{years}} de experiência profissional."
+    },
+    "contact": {
+      "title": "Entre em contato",
+      "thanks": "Obrigado pela visita"
+    }
+  },
+  "skillCardExperienceLabel": {
+    "years": "+ de {{total}} {{years}} de experiência",
+    "academic-experience": "Experiência acadêmica"
+  },
+  "words": {
+    "year": "ano",
+    "years": "anos",
+    "years-old": "anos"
+  }
+}

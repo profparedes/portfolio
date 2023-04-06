@@ -1,0 +1,36 @@
+{
+  "menu": {
+    "qualifications": "Qualifications",
+    "portfolio": "Portfolio",
+    "experience": "Experience",
+    "about-me": "About me",
+    "contact": "Contact"
+  },
+  "translation": {
+    "language": "Language"
+  },
+  "greeting-text": "Hi<br />I'm <span class=\"color-accent\">{{name}}</span>,<br />{{job}}",
+  "scroll-down-section": "<span class=\"color-accent d-none d-md-inline\">Click here<br /></span><span class=\"color-accent d-none d-md-inline\">or</span> scroll down<span class=\"color-accent d-none d-md-inline\"><br />to see my qualifications</span>",
+  "sections": {
+    "portfolio": {
+      "title": "Recent Projects"
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "description": "These are some clients I've worked for in my {{years}} of professional experience."
+    },
+    "contact": {
+      "title": "Contact me",
+      "thanks": "Thanks for the visit"
+    }
+  },
+  "skillCardExperienceLabel": {
+    "years": "{{total}}+ {{years}} of professional XP",
+    "academic-experience": "Academic Experience"
+  },
+  "words": {
+    "year": "year",
+    "years": "years",
+    "years-old": "years old"
+  }
+}
