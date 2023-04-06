@@ -479,33 +479,21 @@ const Contents: ContentsType = {
   ],
   aboutMe: {
     'pt-BR': [
-      'Olá, meu nome é Frederico Vanelli, mas você pode me chamar de Fred.',
-      `Eu sou um programador movido por amor e vocação. Meu primeiro contato com o código foi aos 12 anos e eu nunca mais parei, até hoje aos ${getAge(
-        Config.profile.birthday,
-      )}.`,
-      'Aos 16 anos eu entrei na faculdade e, aos 20, me formei em Análise de Sistemas. Logo após eu fiz uma pós-graduação em Engenharia de Software, seguida por outra em Gestão de Projetos.',
-      `Atualmente eu tenho ${
-        new Date().getFullYear() - 2005
-      } anos de experiência desenvolvendo aplicações baseadas na web para clientes, empresas e projetos pessoais. Sempre fui full-stack e trabalhei em todas as áreas dos projetos, back-end, front-end, APIs e até servidores de hospedagem.`,
-      `Há aproximadamente ${
-        new Date().getFullYear() - 2018
-      } anos eu me apaixonei pelo React e desde então mudei toda a minha carreira para esse lado. Ultimamente eu tenho participado mais ativamente em projetos de front-end (mas eu também adoro trabalhar no back-end).`,
-      'Eu também tenho 6 anos de experiência como Tech Leader.',
+      'Olá, meu nome é Fábio Paredes e sou formado em engenharia de produção, além de possuir uma pós-graduação em engenharia de soldagem.',
+      'Aos 16 anos, enquanto cursava Mecânica no SENAI, tive a oportunidade de participar da Olimpíada do Conhecimento, um evento que reúne alunos de todo o país para testar seus conhecimentos técnicos em uma competição a nível nacional.',
+      'Após o evento, trabalhei no ramo Offshore, como projetista em diversas empresas e, posteriormente, retornei ao SENAI, desta vez para atuar como professor por 11 anos.',
+      'Durante esse tempo, participei de diversos projetos institucionais, porém percebi que minha carreira não estava evoluindo como eu desejava e decidi mudar de área.',
+      'Foi em 2020 que iniciei meus estudos em programação e me apaixonei pelo segmento.',
+      'Atualmente, trabalho como desenvolvedor Full-Stack na mesma escola em que aprendi a programar e busco constantemente novas oportunidades para aprimorar meus conhecimentos.',
       'Vamos nos conhecer, meus contatos estão logo abaixo!',
     ],
     en: [
-      'Hello, my name is Frederico Vanelli, but you can call me Fred.',
-      `I am a developer out of love and vocation. My first contact with code was at the age of 12 and I never stopped until today, at the age of ${getAge(
-        Config.profile.birthday,
-      )}.`,
-      'When I was 16 I entered college and graduated in Systems Analysis at the age of 20. Soon after I did a postgraduate degree in Software Engineering, followed by a degree in Project Management.',
-      `I currently have ${
-        new Date().getFullYear() - 2005
-      } years of experience in developing web applications for clients, companies and personal projects. Always being full-stack and developing all areas of the project, back-end, front-end, APIs and even configuring hosting servers.`,
-      `About ${
-        new Date().getFullYear() - 2018
-      } years ago I fell in love with React and I have changed my career to that side. Lately I have been participating more actively in front-end projects (but I also love working on the back-end side).`,
-      'I also have 6 years of experience working as Tech Leader.',
+      'Hello, my name is Fábio Paredes and I have a degree in production engineering, as well as a post-graduate degree in welding engineering.',
+      'At the age of 16, while studying Mechanics at SENAI, I had the opportunity to participate in the Knowledge Olympics, an event that brings together students from all over the country to test their technical knowledge in a national competition.',
+      'After the event, I worked in the Offshore industry as a designer in various companies and later returned to SENAI, this time to work as a teacher for 11 years.',
+      'During this time, I participated in several institutional projects, but I realized that my career was not evolving as I wanted, so I decided to change my area of expertise.',
+      'It was in 2020 that I started studying programming and fell in love with this segment.',
+      'Currently, I work as a Full-Stack developer at the same school where I learned to program, and I am constantly seeking new opportunities to improve my skills.',
       "Let's get to know each other, my contacts are down below!",
     ],
   },
