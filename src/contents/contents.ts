@@ -52,10 +52,6 @@ import MaricaAppIosScreenshot from 'assets/screenshots/marica-app-ios.jpg'
 import MaricaScreenshot from 'assets/screenshots/marica.jpg'
 import SnakeInfinityScreenshot from 'assets/screenshots/snake-infinity.jpg'
 
-import Config from 'Config'
-
-import { getAge } from 'helpers'
-
 import { LanguageType } from 'types'
 
 export type QualificationKeyType =
