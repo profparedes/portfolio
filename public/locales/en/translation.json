@@ -13,11 +13,11 @@
   "scroll-down-section": "<span class=\"color-accent d-none d-md-inline\">Click here<br /></span><span class=\"color-accent d-none d-md-inline\">or</span> scroll down<span class=\"color-accent d-none d-md-inline\"><br />to see my qualifications</span>",
   "sections": {
     "portfolio": {
-      "title": "Recent Projects"
+      "title": "Projects"
     },
     "experience": {
       "title": "Professional Experience",
-      "description": "These are some clients I've worked for in my {{years}} of professional experience."
+      "description": ""
     },
     "contact": {
       "title": "Contact me",

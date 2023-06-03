@@ -13,11 +13,10 @@
   "scroll-down-section": "<span class=\"color-accent d-none d-md-inline\">Clique aqui<br /></span><span class=\"color-accent d-none d-md-inline\">ou</span> role para baixo<span class=\"color-accent d-none d-md-inline\"><br />para ver as minhas qualificações</span>",
   "sections": {
     "portfolio": {
-      "title": "Projetos Recentes"
+      "title": "Projetos"
     },
     "experience": {
-      "title": "Experiência Profissional",
-      "description": "Esses são alguns dos clientes para os quais eu trabalhei nos meus {{years}} de experiência profissional."
+      "title": "Experiência Profissional"
     },
     "contact": {
       "title": "Entre em contato",

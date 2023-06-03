@@ -2,13 +2,9 @@ import { IconType } from 'react-icons'
 import { DiReact, DiScrum } from 'react-icons/di'
 import {
   SiAdobephotoshop,
-  SiAdobexd,
-  SiAdonisjs,
-  SiBitbucket,
   SiBootstrap,
   SiCss3,
   SiDocker,
-  SiExpress,
   SiFigma,
   SiGit,
   SiGithub,
@@ -17,40 +13,25 @@ import {
   SiJavascript,
   SiJira,
   SiLaravel,
-  SiMongodb,
   SiMysql,
-  SiNextdotjs,
   SiNodedotjs,
   SiPhp,
-  SiPostgresql,
-  SiRedis,
   SiTypescript,
 } from 'react-icons/si'
 import { VscJson } from 'react-icons/vsc'
 
-import AncineLogo from 'assets/companies/ancine.jpg'
-import CoinbaseLogo from 'assets/companies/coinbase.jpg'
-import DTOLogo from 'assets/companies/dto.jpg'
-import InterTvLogo from 'assets/companies/inter-tv.jpg'
-import JornadaDoDevLogo from 'assets/companies/jornada-do-dev.jpg'
-import PedroSupertiLogo from 'assets/companies/pedro-superti.jpg'
-import ProlucentLogo from 'assets/companies/prolucent.jpg'
-import SimplisafeLogo from 'assets/companies/simplisafe.jpg'
-import TargetLogo from 'assets/companies/target.jpg'
-import AVozDaSerraScreenshot from 'assets/screenshots/a-voz-da-serra.jpg'
-import AcianfScreenshot from 'assets/screenshots/acianf.jpg'
-import CoinbaseScreenshot from 'assets/screenshots/coinbase.jpg'
-import EquilibriScreenshot from 'assets/screenshots/equilibri.jpg'
-import InterTVScreenshot from 'assets/screenshots/inter-tv.jpg'
-import JornadaDoDevScreenshot from 'assets/screenshots/jornada-do-dev.jpg'
-import LiquidCompassScreenshot from 'assets/screenshots/liquid-compass.jpg'
-import LiveStreamingScreenshot from 'assets/screenshots/live-streaming.jpg'
-import LivesScreenshot from 'assets/screenshots/lives.jpg'
-import MaricaAdminScreenshot from 'assets/screenshots/marica-admin.jpg'
-import MaricaAppAndroidScreenshot from 'assets/screenshots/marica-app-android.jpg'
-import MaricaAppIosScreenshot from 'assets/screenshots/marica-app-ios.jpg'
-import MaricaScreenshot from 'assets/screenshots/marica.jpg'
-import SnakeInfinityScreenshot from 'assets/screenshots/snake-infinity.jpg'
+import SenaiLogo from 'assets/companies/senai.png'
+import ArSolucoesScreenshot from 'assets/screenshots/ar-solucoes.png'
+import FabioLabScreenshot from 'assets/screenshots/fabio-lab.png'
+import ImovelApiScreenshot from 'assets/screenshots/imovel-api.png'
+import JornadaDoDev from 'assets/screenshots/jornada-do-dev.png'
+import LegalideScreenshot from 'assets/screenshots/legalide.png'
+import MaricaScreenshot from 'assets/screenshots/marica.png'
+import OrganicScreenshot from 'assets/screenshots/organic.png'
+import PokemonScreenshot from 'assets/screenshots/pokemon.png'
+import r6skinsScreenshot from 'assets/screenshots/r6skins.png'
+import RickAndMortyScreenshot from 'assets/screenshots/rickandmorty.png'
+import SpaceMotorsScreenshot from 'assets/screenshots/space-motors.png'
 
 import { LanguageType } from 'types'
 
@@ -61,7 +42,7 @@ export type QualificationKeyType =
   | 'Design and UX'
   | 'Others'
 
-export type ProjectKeyType = 'React JS' | 'React Native' | 'Laravel' | 'Drupal'
+export type ProjectKeyType = 'React JS' | 'JavaScript' | 'Laravel'
 
 type ProjectType = {
   title: string | Record<LanguageType, string>
@@ -90,59 +71,53 @@ const Contents: ContentsType = {
     'Front-end': [
       {
         tech: 'React JS',
-        since: 2018,
+        since: 2020,
         icon: DiReact,
         iconColor: '#81D6F6',
       },
       {
         tech: 'Typescript',
-        since: 2018,
+        since: 2020,
         icon: SiTypescript,
         iconColor: '3478C6',
       },
       {
         tech: 'Javascript',
-        since: 2006,
+        since: 2019,
         icon: SiJavascript,
         iconColor: '#F3E050',
       },
       {
         tech: 'CSS',
-        since: 2005,
+        since: 2019,
         icon: SiCss3,
         iconColor: '#5499D2',
       },
       {
         tech: 'Bootstrap',
-        since: 2013,
+        since: 2019,
         icon: SiBootstrap,
         iconColor: 'white',
       },
       {
         tech: 'HTML',
-        since: 2005,
+        since: 2019,
         icon: SiHtml5,
         iconColor: '#D45836',
-      },
-      {
-        tech: 'Next JS',
-        icon: SiNextdotjs,
-        iconColor: 'white',
-        customLabel: 'Academic experience',
       },
     ],
     'Back-end': [
       {
-        tech: 'Laravel',
-        since: 2014,
-        icon: SiLaravel,
-        iconColor: '#EA4331',
+        tech: 'PHP',
+        since: 2020,
+        icon: SiPhp,
+        iconColor: '#5499D2',
       },
       {
-        tech: 'Express',
-        since: 2019,
-        icon: SiExpress,
-        iconColor: 'white',
+        tech: 'Laravel',
+        since: 2020,
+        icon: SiLaravel,
+        iconColor: '#EA4331',
       },
       {
         tech: 'NodeJS',
@@ -150,84 +125,41 @@ const Contents: ContentsType = {
         icon: SiNodedotjs,
         iconColor: '#99C65D',
       },
-      {
-        tech: 'PHP',
-        since: 2005,
-        icon: SiPhp,
-        iconColor: '#5499D2',
-      },
-      {
-        tech: 'AdonisJS',
-        since: 2019,
-        icon: SiAdonisjs,
-        iconColor: 'white',
-        customLabel: 'Academic experience',
-      },
     ],
     Database: [
       {
         tech: 'MySQL',
-        since: 2005,
+        since: 2019,
         icon: SiMysql,
         iconColor: 'white',
-      },
-      {
-        tech: 'PostgreSQL',
-        since: 2019,
-        icon: SiPostgresql,
-        iconColor: 'white',
-      },
-      {
-        tech: 'Redis',
-        since: 2014,
-        icon: SiRedis,
-        iconColor: '#D82C20',
-      },
-      {
-        tech: 'MongoDB',
-        since: 2014,
-        icon: SiMongodb,
-        iconColor: '#47A248',
       },
     ],
     'Design and UX': [
       {
-        tech: 'Adobe XD',
-        since: 2019,
-        icon: SiAdobexd,
-        iconColor: '#FF26BE',
-      },
-      {
         tech: 'Adobe Photoshop',
-        since: 2005,
+        since: 2010,
         icon: SiAdobephotoshop,
         iconColor: '#31A8FF',
       },
       {
         tech: 'Figma',
+        since: 2020,
         icon: SiFigma,
         iconColor: '#F24E1E',
-        customLabel: 'Academic experience',
       },
     ],
     Others: [
       {
         tech: 'Git',
-        since: 2014,
+        since: 2019,
         icon: SiGit,
         iconColor: '#F05032',
       },
       {
         tech: 'GitHub',
-        since: 2014,
+        since: 2019,
         icon: SiGithub,
         iconColor: 'white',
-      },
-      {
-        tech: 'Bitbucket',
-        since: 2019,
-        icon: SiBitbucket,
-        iconColor: '#2684FF',
       },
       {
         tech: 'Docker',
@@ -243,13 +175,13 @@ const Contents: ContentsType = {
       },
       {
         tech: 'Restful API',
-        since: 2018,
+        since: 2019,
         icon: VscJson,
         iconColor: 'white',
       },
       {
         tech: 'GraphQL',
-        since: 2021,
+        since: 2020,
         icon: SiGraphql,
         iconColor: '#f4447c',
       },
@@ -264,213 +196,87 @@ const Contents: ContentsType = {
   projects: {
     'React JS': [
       {
-        title: 'Coinbase',
-        url: 'https://coinbase.com',
-        cover: CoinbaseScreenshot,
-      },
-      {
-        title: 'Liquid Compass',
-        url: 'https://liquidcompass.com',
-        cover: LiquidCompassScreenshot,
-      },
-      {
         title: {
-          'pt-BR': 'Guia oficial de turismo de Maricá/RJ',
-          en: 'Maricá/RJ Tourism Office',
+          'pt-BR': 'Clone: Guia oficial de turismo de Maricá/RJ',
+          en: 'Maricá/RJ Tourism Office clone',
         },
-        url: 'https://conhecamarica.com.br',
+        url: 'https://profparedes-conheca-marica.netlify.app/',
         cover: MaricaScreenshot,
       },
       {
-        title: {
-          'pt-BR': 'Snake Infinity (jogo da cobrinha on-line)',
-          en: 'Snake Infinity (on-line snake game)',
-        },
-        url: 'https://snakeinfinity.netlify.app/',
-        cover: SnakeInfinityScreenshot,
+        title: 'Organic shop',
+        url: 'https://profparedes-organic.netlify.app/about',
+        cover: OrganicScreenshot,
       },
       {
-        title: {
-          'pt-BR': 'Sistema de streaming de vídeos',
-          en: 'Video streaming system',
-        },
-        url: 'https://bit.ly/subsreact',
-        cover: LiveStreamingScreenshot,
+        title: 'Legalide',
+        url: 'https://profparedes-legalide.netlify.app/',
+        cover: LegalideScreenshot,
       },
       {
-        title: {
-          'pt-BR': 'Sistema de transmissão de aulas ao vivo',
-          en: 'Live classes broadcast system',
-        },
-        url: 'https://bit.ly/lives2react',
-        cover: LivesScreenshot,
+        title: 'Pokemon',
+        url: 'https://profparedes-pokemon.netlify.app/',
+        cover: PokemonScreenshot,
+      },
+      {
+        title: 'Rick & Morty',
+        url: 'https://profparedes-rick-and-morty.netlify.app/',
+        cover: RickAndMortyScreenshot,
+      },
+      {
+        title: 'Space Motors',
+        url: 'https://profparedes-space-motors.netlify.app/',
+        cover: SpaceMotorsScreenshot,
       },
     ],
-    'React Native': [
+    JavaScript: [
       {
-        title: {
-          'pt-BR': 'App oficial de turismo de Maricá/RJ (Android)',
-          en: 'Maricá/RJ Tourism Office app (Android)',
-        },
-        url: 'https://bit.ly/appmarica',
-        cover: MaricaAppAndroidScreenshot,
+        title: 'R6Skins',
+        url: 'https://profparedes-r6skins.netlify.app/',
+        cover: r6skinsScreenshot,
       },
       {
-        title: {
-          'pt-BR': 'App oficial de turismo de Maricá/RJ (iOS)',
-          en: 'Maricá/RJ Tourism Office app (iOS)',
-        },
-        url: 'https://bit.ly/iosmarica',
-        cover: MaricaAppIosScreenshot,
+        title: 'AR Soluções',
+        url: 'https://profparedes.github.io/arsolucoes/',
+        cover: ArSolucoesScreenshot,
+      },
+      {
+        title: 'FabioLab Store',
+        url: 'https://profparedes-fabiolab.netlify.app/',
+        cover: FabioLabScreenshot,
       },
     ],
     Laravel: [
       {
-        title: {
-          'pt-BR': 'Sistema de gestão de pontos turísticos de Maricá/RJ',
-          en: 'Maricá/RJ Tourism Office management system',
-        },
-        url: 'https://bit.ly/app-marica',
-        cover: MaricaAdminScreenshot,
-      },
-      {
-        title: {
-          'pt-BR': 'Sistema de gestão de projetos da Inter TV (Rede Globo)',
-          en: 'Inter TV (Globo TV Network) project management system',
-        },
-        url: 'https://bit.ly/sistema-intertv',
-        cover: InterTVScreenshot,
-      },
-      {
-        title: {
-          'pt-BR': 'Sistema de gestão de vagas de emprego',
-          en: 'Jobs management system',
-        },
-        url: 'https://bit.ly/sistema-empregos',
-        cover: AcianfScreenshot,
-      },
-      {
-        title: 'Equilibri App',
-        url: 'https://equilibriapp.com.br',
-        cover: EquilibriScreenshot,
-      },
-    ],
-    Drupal: [
-      {
-        title: {
-          'pt-BR': 'Jornal A Voz da Serra',
-          en: 'A Voz da Serra Online Newspaper',
-        },
-        url: 'https://avozdaserra.com.br',
-        cover: AVozDaSerraScreenshot,
-      },
-      {
-        title: {
-          'pt-BR': 'Jornada do Dev',
-          en: "Dev's Journey Programming Courses",
-        },
-        url: 'https://jornadadodev.com.br',
-        cover: JornadaDoDevScreenshot,
+        title: 'Imovel api',
+        url: 'https://github.com/profparedes/imovel-api',
+        cover: ImovelApiScreenshot,
       },
     ],
   },
   experiences: [
-    {
-      title: 'Coinbase',
-      description: {
-        'pt-BR': 'Desenvolvedor Front-end Sênior (React JS)',
-        en: 'Senior Front-end (React JS) developer',
-      },
-      url: 'https://coinbase.com',
-      cover: CoinbaseLogo,
-    },
-    {
-      title: 'Prolucent Health',
-      description: {
-        'pt-BR': 'Desenvolvedor Full-Stack Sênior (React JS/Laravel)',
-        en: 'Senior Full-Stack (React JS/Laravel) developer',
-      },
-      url: 'https://prolucent.com',
-      cover: ProlucentLogo,
-    },
-    {
-      title: 'SimpliSafe',
-      description: {
-        'pt-BR': 'Desenvolvedor Front-end Sênior (React JS)',
-        en: 'Senior Front-end (React JS) developer',
-      },
-      url: 'https://simplisafe.com',
-      cover: SimplisafeLogo,
-    },
-    {
-      title: {
-        'pt-BR': 'Agência Nacional do Cinema (Ancine)',
-        en: 'Brazil National Film Agency (Ancine)',
-      },
-      description: {
-        'pt-BR': 'Desenvolvedor Drupal',
-        en: 'Drupal developer',
-      },
-      url: 'https://www.gov.br/ancine',
-      cover: AncineLogo,
-    },
     {
       title: {
         'pt-BR': 'Jornada do Dev',
         en: "Dev's Journey",
       },
       description: {
-        'pt-BR': 'Desenvolvedor Drupal',
-        en: 'Drupal developer',
+        'pt-BR': 'Desenvolvedor Full-stack',
+        en: 'Full-stack developer',
       },
       url: 'https://jornadadodev.com.br',
-      cover: JornadaDoDevLogo,
+      cover: JornadaDoDev,
     },
     {
       title: {
-        'pt-BR': 'Inter TV (Rede Globo)',
-        en: 'Inter TV (Globo TV Network)',
+        'pt-BR': 'Firjan SENAI',
+        en: 'Firjan SENAI',
       },
       description: {
-        'pt-BR': 'Desenvolvedor Back-end (PHP)',
-        en: 'Back-end (PHP) Developer',
+        'pt-BR': 'Instrutor de automação',
+        en: 'Automation instructor',
       },
-      url: 'https://redeglobo.globo.com/rj/intertvrj',
-      cover: InterTvLogo,
-    },
-    {
-      title: 'Pedro Superti',
-      description: {
-        'pt-BR':
-          'Tech leader e Desenvolvedor Full-Stack Sênior (React JS/NodeJS/Laravel)',
-        en: 'Tech leader and Senior Full-Stack (React JS/NodeJS/Laravel) developer',
-      },
-      url: 'https://pedrosuperti.com.br/bio',
-      cover: PedroSupertiLogo,
-    },
-    {
-      title: {
-        'pt-BR': 'DTO Publicidade',
-        en: 'DTO Advertising',
-      },
-      description: {
-        'pt-BR': 'Desenvolvedor Full-Stack Sênior (React JS/Laravel)',
-        en: 'Senior Full-Stack (React JS/Laravel) developer',
-      },
-      url: 'https://dtopublicidade.com.br',
-      cover: DTOLogo,
-    },
-    {
-      title: {
-        'pt-BR': 'Target Comunicação',
-        en: 'Target Advertising',
-      },
-      description: {
-        'pt-BR': 'Desenvolvedor Back-end (PHP)',
-        en: 'Back-end (PHP) Developer',
-      },
-      url: 'https://targetcomunica.com.br',
-      cover: TargetLogo,
+      cover: SenaiLogo,
     },
   ],
   aboutMe: {
@@ -479,7 +285,7 @@ const Contents: ContentsType = {
       'Aos 16 anos, enquanto cursava Mecânica no SENAI, tive a oportunidade de participar da Olimpíada do Conhecimento, um evento que reúne alunos de todo o país para testar seus conhecimentos técnicos em uma competição a nível nacional.',
       'Após o evento, trabalhei no ramo Offshore, como projetista em diversas empresas e, posteriormente, retornei ao SENAI, desta vez para atuar como professor por 11 anos.',
       'Durante esse tempo, participei de diversos projetos institucionais, porém percebi que minha carreira não estava evoluindo como eu desejava e decidi mudar de área.',
-      'Foi em 2020 que iniciei meus estudos em programação e me apaixonei pelo segmento.',
+      'Foi em 2019 que iniciei meus estudos em programação e me apaixonei pelo segmento.',
       'Atualmente, trabalho como desenvolvedor Full-Stack na mesma escola em que aprendi a programar e busco constantemente novas oportunidades para aprimorar meus conhecimentos.',
       'Vamos nos conhecer, meus contatos estão logo abaixo!',
     ],
@@ -488,7 +294,7 @@ const Contents: ContentsType = {
       'At the age of 16, while studying Mechanics at SENAI, I had the opportunity to participate in the Knowledge Olympics, an event that brings together students from all over the country to test their technical knowledge in a national competition.',
       'After the event, I worked in the Offshore industry as a designer in various companies and later returned to SENAI, this time to work as a teacher for 11 years.',
       'During this time, I participated in several institutional projects, but I realized that my career was not evolving as I wanted, so I decided to change my area of expertise.',
-      'It was in 2020 that I started studying programming and fell in love with this segment.',
+      'It was in 2019 that I started studying programming and fell in love with this segment.',
       'Currently, I work as a Full-Stack developer at the same school where I learned to program, and I am constantly seeking new opportunities to improve my skills.',
       "Let's get to know each other, my contacts are down below!",
     ],
