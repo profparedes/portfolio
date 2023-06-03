@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
         --font-size-5: 4.8rem;
         --font-size-6: 6rem;
         --font-size-7: 7rem;
-        --font-size-8: 11rem;
+        --font-size-8: 10rem;
         --spacing-1: 0.75rem;
         --spacing-2: 1.5rem;
         --spacing-3: 3rem;
