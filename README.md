@@ -8,7 +8,7 @@ O portfólio é uma representação visual das minhas habilidades e conquistas c
 
 ## Acesso ao Portfólio
 
-Você pode acessar o portfólio através do seguinte link: [Portfólio de Fábio Paredes](https://bit.ly/portifoliofabioparedes)
+Você pode acessar o portfólio através do seguinte link: [Portfólio de Fábio Paredes](https://fabio-paredes.netlify.app/)
 
 ## Contato
 
