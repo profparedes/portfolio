@@ -38,23 +38,23 @@ export const ProfilePicture = styled.img`
 
 export const GreetingText = styled.p`
   line-height: 1;
-  font-size: var(--font-size-4);
+  font-size: var(--font-size-3);
 
   @media (min-width: 576px) {
-    font-size: var(--font-size-5);
+    font-size: var(--font-size-4);
   }
 
   @media (min-width: 768px) {
-    font-size: var(--font-size-6);
+    font-size: var(--font-size-5);
   }
 
   @media (min-width: 1200px) {
     @media (min-height: 600px) {
-      font-size: var(--font-size-7);
+      font-size: var(--font-size-6);
     }
 
     @media (min-height: 900px) {
-      font-size: var(--font-size-8);
+      font-size: var(--font-size-7);
     }
   }
 `
