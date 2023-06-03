@@ -1,92 +1,28 @@
-# Vite + React + Typescript + Vitest + Eslint + Prettier + EditorConfig
+# Portfólio de Fábio Paredes
 
-A starter for React with Typescript with the blazing fast Vite, strong Vitest framework and all static code testing with Eslint and formatting with Prettier and EditorConfig.
+Este é o repositório do meu portfólio pessoal, onde compartilho informações sobre minha experiência, qualificações e projetos de desenvolvimento.
 
-## Installation & run
+## Visão Geral
 
-1. Install [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) extensions for VS Code. **Do not install the Prettier extension**
+O portfólio é uma representação visual das minhas habilidades e conquistas como desenvolvedor full-stack. Nele, você encontrará informações detalhadas sobre minhas qualificações, experiência profissional e projetos desenvolvidos. Além disso, é possível entrar em contato comigo para oportunidades de colaboração ou mais informações.
 
-2. Add these configs to VS Code settings:
+## Acesso ao Portfólio
 
-```
-"[javascript]": {
-    "editor.defaultFormatter": null,
-},
-"editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.organizeImports": false
-},
-"editor.formatOnSave": false,
-"eslint.codeActionsOnSave.mode": "all",
-"eslint.packageManager": "yarn",
-"eslint.validate": [
-    "javascript",
-    "javascriptreact"
-],
-```
+Você pode acessar o portfólio através do seguinte link: [Portfólio de Fábio Paredes](https://bit.ly/portifoliofabioparedes)
 
-3. Clone the repo and run:
+## Contato
 
-```
-cp .env.example .env
-```
+Se você deseja entrar em contato comigo para oportunidades de trabalho, colaboração em projetos ou obter mais informações, você pode utilizar os seguintes canais:
 
-```
-yarn
-```
+- Email: f.paredes.o@gmail.com
+- Telefone: +55 (22) 9 9813-3656
+- LinkedIn: [linkedin.com/in/fabioparedes](https://www.linkedin.com/in/fabioparedes)
+- GitHub: [github.com/profparedes](https://github.com/profparedes)
 
-```
-yarn dev
-```
-
-## Test
-
-```
-yarn test
-```
-
-## Troubleshooting
-
-### Error: Cannot find module 'node:path'
-
-Solution: Use Node.js v16
+Estou ansioso para ouvir de você!
 
 ---
 
-### Error: Command failed: node /path/to/project/node_modules/esbuild/bin/esbuild --version dyld: Symbol not found: \_SecTrustEvaluateWithError
+Obrigado pela visita e interesse em meu portfólio!
 
-Solution:
-
-- Stop using `npm` or `yarn` for this project
-- Install [pnpm](https://pnpm.io)
-- Remove `node_modules`
-- Remove `yarn.lock` (if exists)
-- Remove `package-lock.json` (if exists)
-- Add the following to `package.json`
-
-```
-"devDependencies":
-    "esbuild-wasm":"latest",
-},
-"pnpm":{
-    "overrides":{
-        "esbuild":"npm:esbuild-wasm@latest"
-    }
-},
-```
-
-Download the dependencies:
-
-```
-pnpm i
-```
-
-Run the project:
-
-```
-pnpm run dev
-```
-
-## Credits
-
-This is a fork of [https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier](https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier)
+Fábio Paredes
