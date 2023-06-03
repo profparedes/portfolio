@@ -197,7 +197,7 @@ const Contents: ContentsType = {
     'React JS': [
       {
         title: {
-          'pt-BR': 'Clone: Guia oficial de turismo de Maricá/RJ',
+          'pt-BR': 'Guia oficial de turismo de Maricá/RJ',
           en: 'Maricá/RJ Tourism Office clone',
         },
         url: 'https://profparedes-conheca-marica.netlify.app/',
