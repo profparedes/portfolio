@@ -119,17 +119,11 @@ const Contents: ContentsType = {
         icon: SiLaravel,
         iconColor: '#EA4331',
       },
-      {
-        tech: 'NodeJS',
-        since: 2019,
-        icon: SiNodedotjs,
-        iconColor: '#99C65D',
-      },
     ],
     Database: [
       {
         tech: 'MySQL',
-        since: 2019,
+        since: 2020,
         icon: SiMysql,
         iconColor: 'white',
       },
