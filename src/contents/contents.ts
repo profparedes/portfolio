@@ -14,17 +14,18 @@ import {
   SiJira,
   SiLaravel,
   SiMysql,
-  SiNodedotjs,
   SiPhp,
   SiTypescript,
 } from 'react-icons/si'
 import { VscJson } from 'react-icons/vsc'
 
+import FerragensLogo from 'assets/companies/3f.jpg'
+import JornadaDoDevLogo from 'assets/companies/jornadadodev.jpg'
 import SenaiLogo from 'assets/companies/senai.png'
 import ArSolucoesScreenshot from 'assets/screenshots/ar-solucoes.png'
 import FabioLabScreenshot from 'assets/screenshots/fabio-lab.png'
 import ImovelApiScreenshot from 'assets/screenshots/imovel-api.png'
-import JornadaDoDev from 'assets/screenshots/jornada-do-dev.png'
+import JornadaDoDevScreenshot from 'assets/screenshots/jornada-do-dev.png'
 import LegalideScreenshot from 'assets/screenshots/legalide.png'
 import MaricaScreenshot from 'assets/screenshots/marica.png'
 import OrganicScreenshot from 'assets/screenshots/organic.png'
@@ -157,13 +158,13 @@ const Contents: ContentsType = {
       },
       {
         tech: 'Docker',
-        since: 2019,
+        since: 2020,
         icon: SiDocker,
         iconColor: '#2496ED',
       },
       {
         tech: 'Jira',
-        since: 2019,
+        since: 2020,
         icon: SiJira,
         iconColor: '#0052CC',
       },
@@ -190,6 +191,11 @@ const Contents: ContentsType = {
   projects: {
     'React JS': [
       {
+        title: 'Jornada do Dev',
+        url: 'https://jornadadodev.com.br',
+        cover: JornadaDoDevScreenshot,
+      },
+      {
         title: {
           'pt-BR': 'Guia oficial de turismo de Maricá/RJ',
           en: 'Maricá/RJ Tourism Office clone',
@@ -199,7 +205,7 @@ const Contents: ContentsType = {
       },
       {
         title: 'Organic shop',
-        url: 'https://profparedes-organic.netlify.app/about',
+        url: 'https://profparedes-organic.netlify.app/',
         cover: OrganicScreenshot,
       },
       {
@@ -259,18 +265,25 @@ const Contents: ContentsType = {
         en: 'Full-stack developer',
       },
       url: 'https://jornadadodev.com.br',
-      cover: JornadaDoDev,
+      cover: JornadaDoDevLogo,
     },
     {
-      title: {
-        'pt-BR': 'Firjan SENAI',
-        en: 'Firjan SENAI',
-      },
+      title: 'Firjan SENAI',
       description: {
-        'pt-BR': 'Instrutor de automação',
-        en: 'Automation instructor',
+        'pt-BR': 'Instrutor de automação e projetos',
+        en: 'Professor of automation and projects',
       },
+      url: 'https://www.firjansenai.com.br/',
       cover: SenaiLogo,
+    },
+    {
+      title: 'Ferragens 3F',
+      description: {
+        'pt-BR': 'Projetista',
+        en: 'Designer',
+      },
+      url: 'https://www.3f.com.br/',
+      cover: FerragensLogo,
     },
   ],
   aboutMe: {
