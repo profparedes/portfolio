@@ -23,6 +23,7 @@ import FerragensLogo from 'assets/companies/3f.jpg'
 import JornadaDoDevLogo from 'assets/companies/jornadadodev.jpg'
 import SenaiLogo from 'assets/companies/senai.png'
 import ArSolucoesScreenshot from 'assets/screenshots/ar-solucoes.png'
+import CustomerScreenshot from 'assets/screenshots/costumer-screenshot.png'
 import FabioLabScreenshot from 'assets/screenshots/fabio-lab.png'
 import ImovelApiScreenshot from 'assets/screenshots/imovel-api.png'
 import JornadaDoDevScreenshot from 'assets/screenshots/jornada-do-dev.png'
@@ -251,6 +252,14 @@ const Contents: ContentsType = {
         title: 'Imovel api',
         url: 'https://github.com/profparedes/imovel-api',
         cover: ImovelApiScreenshot,
+      },
+      {
+        title: {
+          'pt-BR': 'Gerenciamento de clientes',
+          en: 'Customer management',
+        },
+        url: 'https://github.com/profparedes/customer-reg',
+        cover: CustomerScreenshot,
       },
     ],
   },
