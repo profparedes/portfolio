@@ -96,7 +96,7 @@ const Contents: ContentsType = {
         tech: 'CSS',
         since: 2019,
         icon: SiCss3,
-        iconColor: '#5499D2',
+        iconColor: '#214ce5',
       },
       {
         tech: 'Bootstrap',
@@ -116,7 +116,7 @@ const Contents: ContentsType = {
         tech: 'PHP',
         since: 2020,
         icon: SiPhp,
-        iconColor: '#5499D2',
+        iconColor: '#7377ad',
       },
       {
         tech: 'Laravel',
