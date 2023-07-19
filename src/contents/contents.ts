@@ -84,7 +84,7 @@ const Contents: ContentsType = {
         tech: 'Typescript',
         since: 2020,
         icon: SiTypescript,
-        iconColor: '3478C6',
+        iconColor: '#3478C6',
       },
       {
         tech: 'Javascript',
