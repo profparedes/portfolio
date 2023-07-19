@@ -9,6 +9,7 @@ import {
   SiGit,
   SiGithub,
   SiGraphql,
+  SiJest,
   SiHtml5,
   SiJavascript,
   // SiJira,
@@ -110,17 +111,23 @@ const Contents: ContentsType = {
         icon: SiHtml5,
         iconColor: '#D45836',
       },
+      {
+        tech: 'Jest',
+        since: 2021,
+        icon: SiJest,
+        iconColor: '#c63d14',
+      },
     ],
     'Back-end': [
       {
         tech: 'PHP',
-        since: 2020,
+        since: 2021,
         icon: SiPhp,
         iconColor: '#7377ad',
       },
       {
         tech: 'Laravel',
-        since: 2020,
+        since: 2021,
         icon: SiLaravel,
         iconColor: '#EA4331',
       },
