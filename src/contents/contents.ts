@@ -11,7 +11,8 @@ import {
   SiGraphql,
   SiHtml5,
   SiJavascript,
-  SiJira,
+  // SiJira,
+  SiTrello,
   SiLaravel,
   SiMysql,
   SiPhp,
@@ -25,10 +26,12 @@ import SenaiLogo from 'assets/companies/senai.png'
 import ArSolucoesScreenshot from 'assets/screenshots/ar-solucoes.png'
 import CustomerScreenshot from 'assets/screenshots/costumer-screenshot.png'
 import FabioLabScreenshot from 'assets/screenshots/fabio-lab.png'
+import HowhowScreenshot from 'assets/screenshots/howhow.png'
 import ImovelApiScreenshot from 'assets/screenshots/imovel-api.png'
 import JornadaDoDevScreenshot from 'assets/screenshots/jornada-do-dev.png'
 import LegalideScreenshot from 'assets/screenshots/legalide.png'
 import MaricaScreenshot from 'assets/screenshots/marica.png'
+import MarvelScreenshot from 'assets/screenshots/marvel.png'
 import OrganicScreenshot from 'assets/screenshots/organic.png'
 import PokemonScreenshot from 'assets/screenshots/pokemon.png'
 import r6skinsScreenshot from 'assets/screenshots/r6skins.png'
@@ -99,7 +102,7 @@ const Contents: ContentsType = {
         tech: 'Bootstrap',
         since: 2019,
         icon: SiBootstrap,
-        iconColor: 'white',
+        iconColor: '#7509f6',
       },
       {
         tech: 'HTML',
@@ -163,11 +166,17 @@ const Contents: ContentsType = {
         icon: SiDocker,
         iconColor: '#2496ED',
       },
+      // {
+      //   tech: 'Jira',
+      //   since: 2020,
+      //   icon: SiJira,
+      //   iconColor: '#0052CC',
+      // },
       {
-        tech: 'Jira',
+        tech: 'Trello',
         since: 2020,
-        icon: SiJira,
-        iconColor: '#0052CC',
+        icon: SiTrello,
+        iconColor: '#0079bf',
       },
       {
         tech: 'Restful API',
@@ -201,39 +210,49 @@ const Contents: ContentsType = {
           'pt-BR': 'Guia oficial de turismo de Maricá/RJ',
           en: 'Maricá/RJ Tourism Office clone',
         },
-        url: 'https://profparedes-conheca-marica.netlify.app/',
+        url: 'https://marica.fabioparedes.dev',
         cover: MaricaScreenshot,
       },
       {
+        title: 'Marvel',
+        url: 'https://marvel.fabioparedes.dev',
+        cover: MarvelScreenshot,
+      },
+      {
+        title: 'Howhow',
+        url: 'https://howhow.fabioparedes.dev',
+        cover: HowhowScreenshot,
+      },
+      {
         title: 'Organic shop',
-        url: 'https://profparedes-organic.netlify.app/',
+        url: 'https://organic.fabioparedes.dev',
         cover: OrganicScreenshot,
       },
       {
         title: 'Legalide',
-        url: 'https://profparedes-legalide.netlify.app/',
+        url: 'https://legalide.fabioparedes.dev',
         cover: LegalideScreenshot,
       },
       {
         title: 'Pokemon',
-        url: 'https://profparedes-pokemon.netlify.app/',
+        url: 'https://pokemon.fabioparedes.dev',
         cover: PokemonScreenshot,
       },
       {
         title: 'Rick & Morty',
-        url: 'https://profparedes-rick-and-morty.netlify.app/',
+        url: 'https://rick-and-morty.fabioparedes.dev/',
         cover: RickAndMortyScreenshot,
       },
       {
         title: 'Space Motors',
-        url: 'https://profparedes-space-motors.netlify.app/',
+        url: 'https://spacemotors.fabioparedes.dev',
         cover: SpaceMotorsScreenshot,
       },
     ],
     JavaScript: [
       {
         title: 'R6Skins',
-        url: 'https://profparedes-r6skins.netlify.app/',
+        url: 'https://r6skins.fabioparedes.dev',
         cover: r6skinsScreenshot,
       },
       {
@@ -243,7 +262,7 @@ const Contents: ContentsType = {
       },
       {
         title: 'FabioLab Store',
-        url: 'https://profparedes-fabiolab.netlify.app/',
+        url: 'https://fabiolab.fabioparedes.dev',
         cover: FabioLabScreenshot,
       },
     ],
