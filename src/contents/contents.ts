@@ -18,6 +18,7 @@ import {
   SiMysql,
   SiPhp,
   SiTypescript,
+  SiMui,
 } from 'react-icons/si'
 import { VscJson } from 'react-icons/vsc'
 
@@ -112,6 +113,12 @@ const Contents: ContentsType = {
         since: 2019,
         icon: SiBootstrap,
         iconColor: '#7509f6',
+      },
+      {
+        tech: 'Material UI',
+        since: 2021,
+        icon: SiMui,
+        iconColor: '#017bf8',
       },
       {
         tech: 'HTML',
