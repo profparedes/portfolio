@@ -23,12 +23,14 @@ import { VscJson } from 'react-icons/vsc'
 
 import FerragensLogo from 'assets/companies/3f.jpg'
 import JornadaDoDevLogo from 'assets/companies/jornadadodev.jpg'
+import RaltecBr from 'assets/companies/raltecBr.jpeg'
 import SenaiLogo from 'assets/companies/senai.png'
 import ArSolucoesScreenshot from 'assets/screenshots/ar-solucoes.png'
 import CustomerScreenshot from 'assets/screenshots/costumer-screenshot.png'
 import FabioLabScreenshot from 'assets/screenshots/fabio-lab.png'
 import HowhowScreenshot from 'assets/screenshots/howhow.png'
 import ImovelApiScreenshot from 'assets/screenshots/imovel-api.png'
+import InspiraScreenshot from 'assets/screenshots/inspira.jpeg'
 import JornadaDoDevScreenshot from 'assets/screenshots/jornada-do-dev.png'
 import LegalideScreenshot from 'assets/screenshots/legalide.png'
 import MaricaScreenshot from 'assets/screenshots/marica.png'
@@ -80,6 +82,12 @@ const Contents: ContentsType = {
         since: 2020,
         icon: DiReact,
         iconColor: '#81D6F6',
+      },
+      {
+        tech: 'React Native',
+        since: 2023,
+        icon: DiReact,
+        iconColor: '#e91e63',
       },
       {
         tech: 'Typescript',
@@ -208,6 +216,11 @@ const Contents: ContentsType = {
   projects: {
     'React JS': [
       {
+        title: 'Inspira',
+        url: 'https://opetinspira.com.br',
+        cover: InspiraScreenshot,
+      },
+      {
         title: 'Jornada do Dev',
         url: 'https://jornadadodev.com.br',
         cover: JornadaDoDevScreenshot,
@@ -290,6 +303,15 @@ const Contents: ContentsType = {
     ],
   },
   experiences: [
+    {
+      title: 'Raltec BR',
+      description: {
+        'pt-BR': 'Desenvolvedor Front-end',
+        en: 'Front-End developer',
+      },
+      url: 'https://raltecbr.com/',
+      cover: RaltecBr,
+    },
     {
       title: {
         'pt-BR': 'Jornada do Dev',
